@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "gatsby develop",
     "prod": "gatsby build",
+    "lint": "./node_modules/.bin/eslint *.js src/**/**.js --fix;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "gatsby": "^2.21.9",
     "gatsby-plugin-sass": "^2.3.0",
     "node-sass": "^4.14.0",
